@@ -1,13 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Quicksand:wght@300;600&display=swap');
+
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "karla";
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.landing-page {
+  background-image: url("./pictures/image1.jpg");
+  padding-top: 24%;
+  padding-bottom: 24%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.landing-page h1 {
+  padding: 0;
+  margin: .5%;
+}
+
+.landing-page button {
+  margin-top: 2%;
+  color: white;
+  background-color: #f1356d;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: .8%;
+}
+
+.landing-page button:hover{
+  background-color: black;
+}
+
+.project-page {
+  padding-top: 0;
+  margin: 0;
+  border: 0;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  background-image: url(./pictures/image2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.project-page h1 {
+  padding-top: 20%;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  border: 0;
+  margin: 0;  
+}
+
+.project-page p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.header {
+  display: grid;
+  place-content: center;
+}
+
+
+.one {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+  height: 1fr;
+  
+}
+
+.two {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.three {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+
+}
+
+.four {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+.five {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.six {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.seven {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+.eight {
+  border-radius: 10px;
+  height: 1fr;
+  background-color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10%;
+}
+
+
+@media (min-width: 768px) {
+  .project-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  } 
+}
+
+
+.navigation {
+  position: fixed;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 100%; 
+  margin: 0px;
+  padding: 1%;
+}
+
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+
+.navigation a:hover {
+  color: #f1356d;
+}
+
+.tittle{
+  display: grid;
+  place-content: center;
+}
+
+
+
+/*.resume {
+  display: flex;
+  flex-direction: column;
+  border: solid blue;
+}
+*/
+
+.education, .skills, .exp {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  height: 1fr;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  
+  margin: 10%;
+}
+
+.temp {
+  border: solid red;
+}
+@media (min-width: 768px) {
+  .resume{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 100%;
+  min-width: 200px;
+  flex-wrap: wrap;
 }
