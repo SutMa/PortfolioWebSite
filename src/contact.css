@@ -1,0 +1,19 @@
+ #forms{
+  border-radius: 100px;
+  text-align: center;
+  border-color: red;  
+ }
+
+
+
+ form {
+  border-radius: 100px;
+  
+  border-color: red;
+ }
+
+ #socials, img{
+  text-align:justify;
+  width: 40px;
+ }
+

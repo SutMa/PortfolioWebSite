@@ -14,13 +14,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-  background-color: white;
   border-radius: 10px;
   background-color: white;
   padding: 2%;
   margin: 2%;
-  opacity: 80%;
+  
 }
 
 #exp{
@@ -28,12 +26,12 @@
   flex-direction: column;
   align-items: center;
  
-  background-color: white;
+ 
   border-radius: 10px;
   background-color: white;
   padding: 2%;
   margin: 2%;
-  opacity: 80%;
+ 
 }
 
 #skills{
@@ -44,5 +42,5 @@
   background-color: white;
   padding: 2%;
   margin: 2%;
-  opacity: 80%;
+
 }
