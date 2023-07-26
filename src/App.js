@@ -1,5 +1,6 @@
 import LandingPage from "./LandingPage";
 import "./index.css";
+import "./about.css";
 import Projects from "./Projects";
 import NavBar from "./NavBar";
 import About from "./about"

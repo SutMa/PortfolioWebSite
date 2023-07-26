@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Quicksand:wght@300;600&display=swap');
 
 
-
+p, li{
+  font-size:x-large;
+}
 body {
   font-family: "karla";
   margin: 0px;
