@@ -208,42 +208,10 @@ html {
 
 
 
-/*.resume {
-  display: flex;
-  flex-direction: column;
-  border: solid blue;
-}
-*/
-
-.education, .skills, .exp {
-  background-color: antiquewhite;
-  border-radius: 10px;
-  height: 1fr;
-  padding-top: 10%;
-  padding-bottom: 10%;
-
-  
-  margin: 10%;
-}
-
-.temp {
-  border: solid red;
-}
-@media (min-width: 768px) {
-  .resume{
-    display: flex;
-    flex-direction: row;
-  }
-
-}
 
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  max-width: 100%;
-  min-width: 200px;
-  flex-wrap: wrap;
-}
+
+
+
+
+

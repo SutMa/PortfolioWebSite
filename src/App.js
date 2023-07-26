@@ -2,7 +2,8 @@ import LandingPage from "./LandingPage";
 import "./index.css";
 import Projects from "./Projects";
 import NavBar from "./NavBar";
-import About from "./About";
+import About from "./about"
+
 
 function App() {
   return (
