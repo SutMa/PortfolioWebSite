@@ -19,6 +19,7 @@ function Contact() {
       });
 
     alert("Message Sent!")
+    document.getElementById('formID').reset()
   }
   
   return ( 
@@ -32,7 +33,7 @@ function Contact() {
       </div>
 
       <div id="forms">
-        <form >
+        <form id="formID">
           <label for="name">Name</label><br />
           <input type="text" id="name" class="in"></input><br />
 

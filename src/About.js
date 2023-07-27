@@ -10,13 +10,14 @@ const About = () => {
       </div>
      
      <div id="exp">
+        <div className="headingHolder">
         <h1>Experience</h1>
-        <h2>Louisiana State Board Of Regent(Current) 
-          <br />
-        IT and Software
-        </h2>
+        <h2>Louisiana State Board Of Regent (Current) 
+        <br />
+        IT and Software</h2>
+        </div>
         
-
+        
         <div>
           <ul>
             <li>
@@ -34,9 +35,12 @@ const About = () => {
           </ul>   
         </div>
 
+        <div className = "headingHolder"> 
         <h2>Vex Robotics (2017-2021)
         <br/>
         Assistant Admin Volunteer</h2>
+        </div>
+
         <div>
         <ul>
           <li>

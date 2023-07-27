@@ -10,6 +10,10 @@
   padding: 5%;
 }
 
+.headingHolder{
+  text-align: center;
+}
+
 #aboutMe{
   display: flex;
   flex-direction: column;
