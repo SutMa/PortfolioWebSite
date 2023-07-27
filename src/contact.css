@@ -1,17 +1,17 @@
+ #contact{
+  background-image: url("../src/pictures/image6.jpg");
+  background-size: cover;
+  background-position: center;
+ }
+ 
  #forms{
-  border-radius: 100px;
   text-align: center;
-  border-color: red;  
  }
 
 #contact{
   padding: 10%;
 }
 
- 
- 
-
- 
 
 button {
   background-color: #f1356d;
