@@ -1,14 +1,11 @@
 function Modal() {
 
-  const [modal, setModal] = usState(false)
-  const toggleModal = ()=>{
-    setModal(!modal)
-  }
+  
   
   return ( 
-    <div>
-      <h3></h3>
-      <button>Close</button>
+    <div className = "modal">
+      <h2>Thanks</h2>
+      <h3>I'll get to you shortly</h3>
     </div>
    );
 }

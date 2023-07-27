@@ -17,6 +17,8 @@ function Contact() {
       }, (error) => {
           console.log(error.text);
       });
+
+    alert("Message Sent!")
   }
   
   return ( 
