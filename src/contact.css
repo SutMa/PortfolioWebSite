@@ -4,16 +4,76 @@
   border-color: red;  
  }
 
+#contact{
+  padding: 10%;
+}
 
+ 
+ 
 
- form {
-  border-radius: 100px;
+ 
+
+button {
+  background-color: #f1356d;
+  color: white;
+  border: none;
+  padding:.5%;
+  border-radius: 8px;
+}
+
+h1{
+  text-align: center;
+}
+
+label {
+  font-size: larger;
+}
+
+textarea{
+  resize: none;
+
+}
+
+input{
+  border-style: solid;
+}
+
+.in:focus{
+  outline: 0;
+  border-color: #f1356d;
+}
+
+button:hover{
+  background-color: black;
+}
+
+button{
+  font-size: 20px;
+  padding: .6%;
+  margin-top: 1%;
+}
+
+#socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
   
-  border-color: red;
- }
+}
 
- #socials, img{
-  text-align:justify;
-  width: 40px;
+ img{
+  width: 25px;
+  padding-right: .3%;
+  padding-left: .3%;
  }
-
+ 
+ a{
+  text-decoration: none;
+  color: black;
+ }
+ 
+ a:hover{
+  text-decoration: underline;
+  color: #f1356d;
+ }
+ 

@@ -1,11 +1,11 @@
 const About = () => {
   return ( 
-    <div id="about_container">
+    <div id="about_container" >
       
       <div id="aboutMe">
         <h1>About</h1>
         <h2>
-         Junior at LSU, persuing BS in Computer Science with a focus on Cloud Computing and Networking
+         Junior at LSU, pursuing BS in Computer Science with a focus on Cloud Computing and Networking
         </h2>
       </div>
      
@@ -59,9 +59,9 @@ const About = () => {
      <div id="skills">
         <h1>Technical Skills</h1>
         <h2>
-          <h3>
+         
           Languages: HTML, CSS, JavaScript, Java, C
-          </h3>
+        
           
           <br />
           Databases: MongoDB, MySQL
