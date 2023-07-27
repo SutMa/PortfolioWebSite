@@ -1,5 +1,23 @@
+import emailjs from '@emailjs/browser';
+import React from 'react';
+
 function Contact() {
 
+  function sendEmail(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const org = document.getElementById('org').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    emailjs.send('service_zh9npvn', 'template_6s1qhaq', { name, org, email, message }, 'R0xU2aRnpXrpyIk5P')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
   
   return ( 
     <div id="contact" className = "contact">
@@ -24,9 +42,10 @@ function Contact() {
 
           <label for="message">Message</label><br />
           <textarea type="text" id="message" name="message" rows="10" cols ="40" class="in"></textarea><br />
+
         </form>
 
-        <button>Summit</button>
+        <button type="button" onClick={sendEmail}>Submit</button>
 
         <div id="socials">
           <img src={require("./pictures/github.png")} />
