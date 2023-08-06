@@ -54,7 +54,7 @@ function Contact() {
           <img src={require("./pictures/github.png")} />
           <a href = "https://github.com/SutMa">GitHub</a> 
           <img src={require("./pictures/linkedin.png")} />
-          <a href = "linkedin.com/in/sut">LinkedIn</a>
+          <a href = "https://linkedin.com/in/sut">LinkedIn</a>
         </div>
 
 
